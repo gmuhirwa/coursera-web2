@@ -8,7 +8,6 @@ body {
 .navbar-brand {
   font-family: 'Anton', sans-serif;
   padding: 0px 0px 75px;
-  color: black;
 }
 .navbar-brand h1 { 
   color: black;
@@ -33,6 +32,8 @@ body {
 #collapsable-nav a {
   color: black;
   font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
 }
 .jumbotron {
   width: 98%;
