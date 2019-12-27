@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+
+/********************* Large devices only **************/
+@media (min-width: 1200px) {
+ 
+}
+/********************* Medium devices only *************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/********************* Small devices only **************/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+  /***************** Extra small devices only **********/
+@media (min-width: 468px) and (max-width: 767px) {
+  
+}
+/***** Super extra small devicesOnly e.g., iPhone 4 ****/
+@media (max-width: 467px) {
+ /******* This is the original version before all medias.*******/
+  }
+}
