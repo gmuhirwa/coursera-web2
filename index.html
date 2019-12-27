@@ -2,21 +2,16 @@
 <html lang="en">
 
 <head>
-  <!-- Characters unicode -->
-  <meta charset="utf-8">
-  <!-- How browser controls different screens with no zooming (1.0)-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <!-- jQuery allows the use of JavaScript, by just calling methods -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
-  <!-- Faster and easier to design website, has HTML, CSS elements and JavaScript plugins -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!--- Google font-family: 'Anton', sans-serif;--> 
-  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
-  <!-- Designed CSS external class to out HTML -->
-  <link rel="stylesheet" type="text/css" href="assignment3.css">
-  <!--- This is in inline CSS unlike the external one, can be in HTML document.----->
-  <style type="text/css"></style>
-  <title> Module 3 Coding Assignment </title>
+  
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<title> Module 3 Coding Assignment </title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assignment3.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
+
 </head>
 
 <body>
@@ -24,57 +19,55 @@
 <header>
 
 	    <nav id="header-nav" class="navbar navbar-default">
-		<div class="container"> 
-        <div class="navbar-header">
+			<div class="container"> 
+          	<div class="navbar-header">
           	<a href="index.html" class="pull-left" visible-md visible-lg>
-          	<div id="logo-image" alt="Logo image"></div></a>
+          	<div id="logo-img" alt="Logo image"></div></a>
 
-        <div class="navbar-brand">
-        <a href="index.html"><h1>Food, LLC</h1></a>
+        	<div class="navbar-brand">
+        	<a href="index.html"><h1>Food, LLC</h1></a>
         	
         <!-- <span class="glyphicon glyphicon-star-empty"></span> -->
-        <p><img class="kosher" src="" alt="">
-        	<span id="sp"> </span>
+        <p><img class="" src="" alt="">
+        <span id="sp"> </span>
         </p>
         </div>
 
 
-
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
-      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+        data-target="#collapsable-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
+      </div>
 
-    <div id="collapsable-nav" class="collapse navbar-collapse">
-      	<ul id="nav-list" class="nav navbar-nav navbar-right">
+        	<div id="collapsable-nav" class="collapse navbar-collapse">
+      		<ul id="nav-list" class="nav navbar-nav navbar-right">
       		
             <li class="visible-xs active">
       			<a href="index.html">
-      			<span class="glyphicon glyphicon-home"></span> <!---icon for chicken -->
+      			<span class="glyphicon glyphicon-home1"></span> <!---icon for chicken -->
       			<br class="hidden-xs"> Chicken</a>
             </li>
 
       		<li class="visible-xs active">
       			<a href="menu-categories.html">
-      			<span class="glyphicon glyphicon-cutlery"></span> <!---icon for Beef -->
+      			<span class="glyphicon glyphicon-cutlery2"></span> <!---icon for Beef -->
       			<br class="hidden-xs"> Beef</a>
             </li>
+
             <li class="visible-xs active">
                 <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span> <!---icon for Sushi -->
+                <span class="glyphicon glyphicon-info-sign3"></span> <!---icon for Sushi -->
                 <br class="hidden-xs"> Sushi</a>
             </li>
         </ul><!-- #nav-list -->
 
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-        </div><!-- .collapse .navbar-collapse -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+    </div><!-- .collapse .navbar-collapse -->
     </div>
     </div>
     </nav>
@@ -124,7 +117,7 @@ Create a single really tall section that will use the Bootstrap Grid and take up
 Both the tablet view and the desktop view of what's graded and required is the same. Here is the mockup illustration of the desktop & tablet version of the site (only required graded parts shown):
 
 </p>
-	</div>
+</div>
 </div>
 
 <footer>
@@ -132,11 +125,14 @@ Both the tablet view and the desktop view of what's graded and required is the s
 </footer>
 
 
-
+<!-- jQuery (Bootstrap JS plugins depend on it) -->	
+<script src="js/jquery-3.3.7-dist.min.js" ></script>
 <script src="js/bootstrap.min.js"></script> 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+
+
 </body>
 </html>
 

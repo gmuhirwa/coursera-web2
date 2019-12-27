@@ -25,25 +25,20 @@ body {
   border: 1px solid black;
   margin-top: 20px;
 }
-#nav-list {
-  margin-top: 10px;
-  font-weight: bold;
-  display: inline-block;
-}
 .text-center {
-	color: black;
-	font-size: 34px;
-	font-weight: bold;
+  color: black;
+  font-size: 34px;
+  font-weight: bold;
 }
 #collapsable-nav a {
   color: black;
   font-weight: bold;
 }
 .jumbotron {
-	width: 98%;
-	background-color:  gray;
-	color: black;
-	text-align: justify;
+  width: 98%;
+  background-color:  gray;
+  color: black;
+  text-align: justify;
 }
 .jumbotron .text-center {
   color: black;
@@ -51,11 +46,9 @@ body {
   font-weight: bold;
 }
 #text {
-	font-size: 14px;
-	font-weight: bold;
+  font-size: 14px;
+  font-weight: bold;
 }
-
-
 
 /********************* Large devices only **************/
 @media (min-width: 1200px) {
