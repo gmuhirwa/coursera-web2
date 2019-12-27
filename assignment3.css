@@ -1,8 +1,32 @@
 
-
-
-
-
+body {
+ 
+}
+#header-nav {
+  background-color: gray;
+}
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  padding: 0px 0px 75px;
+  color: black;
+}
+.navbar-brand h1 { 
+  color: black;
+  padding-left: 15px;
+}
+.navbar-toggle span {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+#menu {
+	color: black;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+}
 
 
 
