@@ -14,6 +14,10 @@ body {
   color: black;
   padding-left: 15px;
 }
+/*This is to remove the underlined feature*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
 .navbar-toggle span {
   border: 1px solid black;
 }
@@ -21,13 +25,35 @@ body {
   border: 1px solid black;
   margin-top: 20px;
 }
-#menu {
+#nav-list {
+  margin-top: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+.text-center {
 	color: black;
 	font-size: 34px;
 	font-weight: bold;
-	text-align: center;
 }
-
+#collapsable-nav a {
+  color: black;
+  font-weight: bold;
+}
+.jumbotron {
+	width: 98%;
+	background-color:  gray;
+	color: black;
+	text-align: justify;
+}
+.jumbotron .text-center {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+#text {
+	font-size: 14px;
+	font-weight: bold;
+}
 
 
 
